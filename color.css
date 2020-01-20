@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #232323;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat';
+  letter-spacing: 1px;
+}
+header {
+  margin-bottom: 35px;
+}
+h1 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgb(13, 108, 168);
+  padding: 25px;
+  font-weight: lighter;
+}
+h1 span {
+  font-size: 150%;
+  font-weight: bold;
+}
+.stripe {
+  background: white;
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+  -webkit-box-align: center;
+          align-items: center;
+  height: 30px;
+}
+.stripe div button,
+.stripe div p {
+  padding: 0 20px;
+  font-size: inherit;
+  height: 30px;
+  color: rgb(13, 108, 168);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.stripe div p {
+  color: black;
+}
+.stripe div button {
+  cursor: pointer;
+}
+button:hover {
+  background: rgb(13, 108, 168);
+  color: white !important;
+}
+button:active,
+button {
+  outline: none;
+  border: 0;
+  background-color: inherit;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#container {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  grid-gap: 1em;
+}
+.square {
+  background: pink;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+}
+.blue {
+  background-color: rgb(13, 108, 168);
+  color: white !important;
+}
